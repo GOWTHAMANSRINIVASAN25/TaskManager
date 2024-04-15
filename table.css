@@ -1,0 +1,124 @@
+h1{
+    margin: 4px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: antiquewhite;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    width: 90%;
+    position: relative;
+    left:4%;
+}
+
+th {
+    padding: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: aqua;
+    font-size:17px;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: ghostwhite;
+    font-size: 17px;
+}
+#Category{
+    font-size: large;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: calc(50% - 10px); 
+    font-size: 18px; 
+}
+
+.task_form{
+    display: flex;
+    flex-direction: column;
+}
+input.duration {
+    border: none; 
+    width: calc(100% - 20px); 
+    font-size: larger;
+}
+
+
+input.duration:focus {
+    outline: none;
+}
+
+input[type="text"]:hover {
+    border-color: #999;
+}
+button.update-btn {
+    padding: 8px 16px; 
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+    left: 5px;
+    margin-right:5px;
+   background-color:green;
+    font-size: 13px;
+    color: white;
+}
+button.delete-btn {
+    padding: 8px 16px;  
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+    left: 18px;
+    margin-right: 15px;
+    background-color:orangered;
+    font-size: 13px;
+    color: white;
+}
+button.update-btn:hover{
+    font-size: large;
+}
+button.delete-btn:hover{
+    font-size: large;
+}
+#submit_btn{
+   width: 100px;
+   height: 30px;
+   background-color: wheat;
+   border-radius: 3px;
+}
+.time{
+ display: flex; 
+ flex-direction: row;
+  gap: 5px;
+  margin: 7px;
+
+}
+#start_btn{
+    font-size: large;
+
+}
+#reset_btn{
+    font-size: large;
+ 
+}
+.formcontain{
+    display: flex;
+    flex-direction: column;
+     position: relative;
+   left:30%;
+   border: 2px outset transparent;
+   border-radius: 10px;
+   background-color: rgba(183, 226, 226, 0.671);
+   width: 50%;
+}

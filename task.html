@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="table.css">      
+</head>
+<body>
+    <h1>Task Manager</h1>
+    <br>
+    <div class="container">
+        <div class="tbcontain">
+<select id="Category" onchange="filtertable()">
+    <option id=" " value="">All</option>
+    <option id=" " value="work">Work</option>
+    <option id=" " value="personal-work">Personal work</option>
+</select>
+<br><br>
+<div class="formcontain">
+    <div class="fm">
+    <form class="task_form">
+        <input type="text" class="category" placeholder="Category">
+        <input type="text" class="subcategory" placeholder="Subcategory">
+        <input type="text" class="duration" placeholder="Duration (HH:MM:SS)">
+        <input type="text" class="task" placeholder="Task">
+        <button id="submit_btn">Add new task</button>
+    </form>
+</div><br>
+<h3>Duration controller</h3>
+<div class="time">
+<button id="start_btn">Start</button>
+<button id="reset_btn">Reset</button>
+</div>
+</div><br><br>
+<table classname="tb">
+    <tr>
+        <th>Category</th>
+        <th>SubCategory</th>
+        <th>Duration</th>
+        <th>Task</th>
+        <th>Updation & deletion &#x1F4DD;</th>
+       
+    </tr>
+    <tbody id="val">
+    </tbody>
+</table>
+</div>
+<br>
+
+</div>
+
+</body>
+
+<script src="index.js"></script>
+</html>
